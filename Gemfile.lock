@@ -62,7 +62,7 @@ GEM
       rb-inotify (>= 0.9)
     lumberjack (1.0.9)
     method_source (0.8.2)
-    mini_portile2 (2.0.0)
+    mini_portile2 (2.4.0)
     multi_json (1.11.2)
     multipart-post (2.0.0)
     nanoc (3.8.0)
@@ -70,8 +70,8 @@ GEM
     nanoc-cachebuster (0.3.1)
       nanoc (>= 3.3.0)
     nenv (0.2.0)
-    nokogiri (1.6.7.2)
-      mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
     notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -134,7 +134,7 @@ DEPENDENCIES
   kramdown
   nanoc
   nanoc-cachebuster
-  nokogiri (~> 1.6.7.2)
+  nokogiri (~> 1.10.8)
   octokit
   oj
   rack-contrib
